@@ -1,0 +1,6 @@
+framework module EventBus {
+  umbrella header "EventBus-umbrella.h"
+
+  export *
+  module * { export * }
+}

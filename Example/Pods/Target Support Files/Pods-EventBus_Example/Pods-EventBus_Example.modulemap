@@ -1,0 +1,6 @@
+framework module Pods_EventBus_Example {
+  umbrella header "Pods-EventBus_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
