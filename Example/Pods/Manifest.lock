@@ -1,5 +1,5 @@
 PODS:
-  - EventBus (0.1.0)
+  - EventBus (0.0.1)
 
 DEPENDENCIES:
   - EventBus (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EventBus: 800aaa2113ed7e344c7ddc6e402ec2b385fd1772
+  EventBus: 87eadcd0eb1ab63dfd8959c02e4ad9173d0b111e
 
 PODFILE CHECKSUM: 56c1e669fa4e97a40a54eb3286fd137b21b2cbdb
 

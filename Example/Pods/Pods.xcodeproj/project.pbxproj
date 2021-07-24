@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DF4610E26AC16F4009F8019 /* EventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4610D26AC16F4009F8019 /* EventBus.swift */; };
-		2DF4611026AC1714009F8019 /* EventBusCompitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4610F26AC1714009F8019 /* EventBusCompitable.swift */; };
-		795B7E389A49175D02DB5D0AF2CCC923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0CB411046B9C8C4BF758CDC48739AF23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		43D5B2B79512E4E1A49E525992601F66 /* EventBus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C0532B05A7240B170BB3A98E82B7E5 /* EventBus-dummy.m */; };
 		8267667F2C78C1F4696E560C100EAC91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8A7333E0B0D5AC2A02C7CDC29D201122 /* EventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E479BD1E87B2F5E1EB2751E8FFE2B58 /* EventBus.swift */; };
+		8DE3BC24A9F2B30251B964F1DFF1223B /* EventBusCompitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C84893BF9547931ED983079209B1D /* EventBusCompitable.swift */; };
 		9960DD2B155ED5ED638930BE37F97D47 /* Pods-EventBus_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D94D07D46EAAA636C01D5AF1DF945A /* Pods-EventBus_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B70CC8B4195345E92B1927795DA27CEF /* EventBus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 310B6765983442CAB21C82650CD8D5EB /* EventBus-dummy.m */; };
-		B97D1AB7A0DC0E8CF83A69992AA554E9 /* EventBus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8B424EE1195E749EC242960DD403D6 /* EventBus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B07798F86F2471C83FE8F0475D1B6E26 /* EventBus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 147B3C06FB67B01E71201773007342DC /* EventBus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC3C5EF3CFFCB9DF882A4A9693D3CEE2 /* Pods-EventBus_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BACC2099EB3024F171379C5B55A8520 /* Pods-EventBus_Example-dummy.m */; };
 		D05EEE4A6DC26EAD1DC68C67F54CC9F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D0D664F06A841C942BF903A900114553 /* Pods-EventBus_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D8584B3409679D865C7088D5CCFD4B /* Pods-EventBus_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,14 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F0F22FFDE1FD8F3AF13327B5AEC02F4 /* PBXContainerItemProxy */ = {
+		291E4DE365AF256A6B489CE69E636F8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 076AE20BDC579F9B74E80D3EF3FFC7E8;
 			remoteInfo = "Pods-EventBus_Example";
 		};
-		ED57C86C92FD14FABE119DF3E9821116 /* PBXContainerItemProxy */ = {
+		6DFD98D2851958B0459A211CDB82F5B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,36 +38,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		206B6FD265C5404E1695DFBD4530B44C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0BD399594DFBE4CAE73860C41E6D0D83 /* EventBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EventBus.release.xcconfig; sourceTree = "<group>"; };
+		1134F140032510753C6E14A062D9F8B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		147B3C06FB67B01E71201773007342DC /* EventBus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EventBus-umbrella.h"; sourceTree = "<group>"; };
+		14C0532B05A7240B170BB3A98E82B7E5 /* EventBus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EventBus-dummy.m"; sourceTree = "<group>"; };
 		2BACC2099EB3024F171379C5B55A8520 /* Pods-EventBus_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EventBus_Example-dummy.m"; sourceTree = "<group>"; };
-		2DF4610D26AC16F4009F8019 /* EventBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventBus.swift; path = EventBus/Classes/EventBus.swift; sourceTree = "<group>"; };
-		2DF4610F26AC1714009F8019 /* EventBusCompitable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventBusCompitable.swift; path = EventBus/Classes/EventBusCompitable.swift; sourceTree = "<group>"; };
-		2E8B424EE1195E749EC242960DD403D6 /* EventBus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EventBus-umbrella.h"; sourceTree = "<group>"; };
 		2F37ADCCEB06051BD85A1E88748B0762 /* Pods-EventBus_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventBus_Tests-Info.plist"; sourceTree = "<group>"; };
-		310B6765983442CAB21C82650CD8D5EB /* EventBus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EventBus-dummy.m"; sourceTree = "<group>"; };
-		37166171A4E4542872F47EAE289B8E57 /* EventBus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EventBus-prefix.pch"; sourceTree = "<group>"; };
 		3CCEA66A760AE1D1D75A5D5B1BE33DC4 /* Pods-EventBus_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventBus_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4944BBB429D7C87A738C8A8946373219 /* EventBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EventBus.debug.xcconfig; sourceTree = "<group>"; };
-		4AE1912259A90CF5BF3690BBD427220C /* EventBus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EventBus-Info.plist"; sourceTree = "<group>"; };
-		4DFD056055D248AAC5E2730A95B7BBEE /* EventBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EventBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		568BB6EB56E2C158AD9F7D6A84833942 /* Pods_EventBus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventBus_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E479BD1E87B2F5E1EB2751E8FFE2B58 /* EventBus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventBus.swift; path = EventBus/Classes/EventBus.swift; sourceTree = "<group>"; };
+		4DFD056055D248AAC5E2730A95B7BBEE /* EventBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EventBus.framework; path = EventBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		568BB6EB56E2C158AD9F7D6A84833942 /* Pods_EventBus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EventBus_Tests.framework; path = "Pods-EventBus_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D94D07D46EAAA636C01D5AF1DF945A /* Pods-EventBus_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EventBus_Example-umbrella.h"; sourceTree = "<group>"; };
 		70D31A2F3E6E47B550F868AE3E33C7F2 /* Pods-EventBus_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EventBus_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75C667FF07C4B9824F048F84B3D00644 /* EventBus.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EventBus.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		761552802E303A4633307298EC11B7AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		79A00576F3289E3A198B0240FA20AA94 /* Pods-EventBus_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventBus_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		90613A0B78CA6715618988C757E1E9C8 /* Pods_EventBus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventBus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7AE98259D4FEF8A06DA6F8AA14BA5685 /* EventBus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EventBus-Info.plist"; sourceTree = "<group>"; };
+		8F1C84893BF9547931ED983079209B1D /* EventBusCompitable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventBusCompitable.swift; path = EventBus/Classes/EventBusCompitable.swift; sourceTree = "<group>"; };
+		90613A0B78CA6715618988C757E1E9C8 /* Pods_EventBus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EventBus_Example.framework; path = "Pods-EventBus_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CFF8046B9EA7F688747279A61D0453 /* EventBus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EventBus.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DACFBBB02BBA8774ED1F6FC1D55B24B /* Pods-EventBus_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EventBus_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AB10F2B96E0D6974A51A9FE464410BB4 /* Pods-EventBus_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventBus_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BDE453CF5FF5C85EC3AC5F3F7C25D53A /* Pods-EventBus_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventBus_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDF344BB14595635A6BA5CCC6BB5C9F3 /* Pods-EventBus_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventBus_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C12507B855835CE6EA4BD9348E62B3D4 /* Pods-EventBus_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EventBus_Tests-dummy.m"; sourceTree = "<group>"; };
 		C1326F2E5222FE289AB723D67976C0C6 /* Pods-EventBus_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EventBus_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C23C4BBBFC2CD5C549AF545483FAA464 /* EventBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EventBus.debug.xcconfig; sourceTree = "<group>"; };
 		CA29190ECFC7588DC0D86CC6A8708CED /* Pods-EventBus_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EventBus_Example.modulemap"; sourceTree = "<group>"; };
-		CA3BFA7F2D7184D8E81AECD47F7075E4 /* EventBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EventBus.release.xcconfig; sourceTree = "<group>"; };
-		D2A0C65C8E96A381F4A0AEECD2567A54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E0C3EA5151CE96257DF92CF154202D15 /* EventBus.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EventBus.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E1E0A6CB491C838AF204DD5A45F90F72 /* EventBus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EventBus.modulemap; sourceTree = "<group>"; };
+		D4001F96500D068648930FA57E89DDEF /* EventBus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EventBus-prefix.pch"; sourceTree = "<group>"; };
 		F18F0588E1C87149F7355DA54FFFFCB5 /* Pods-EventBus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventBus_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F8C14FF1A4D1B4FC6CE7ACFD28F913A5 /* Pods-EventBus_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventBus_Example-Info.plist"; sourceTree = "<group>"; };
 		F9D8584B3409679D865C7088D5CCFD4B /* Pods-EventBus_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EventBus_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -75,6 +75,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		15A675D2D83E46D09F8C30DCED03F812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB411046B9C8C4BF758CDC48739AF23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		917F809E9C33DBD089DBFE2A854F5239 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,21 +99,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DADEBD94B0EB51FD805E20896CEA6B16 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				795B7E389A49175D02DB5D0AF2CCC923 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5446E455BB3B604643FBBE71F74BF83C /* Development Pods */ = {
+		25DDE73A991EE44C4697C22FCA12B6C4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F8D8961E3C3D5945A940083475A2959F /* EventBus */,
+				9BE7DE7AF3DDD8B90CEF4D7E53B7B863 /* EventBus */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -154,29 +154,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8489E76EB25017A19D8B49D359587EE4 /* Support Files */ = {
+		9BE7DE7AF3DDD8B90CEF4D7E53B7B863 /* EventBus */ = {
 			isa = PBXGroup;
 			children = (
-				E1E0A6CB491C838AF204DD5A45F90F72 /* EventBus.modulemap */,
-				310B6765983442CAB21C82650CD8D5EB /* EventBus-dummy.m */,
-				4AE1912259A90CF5BF3690BBD427220C /* EventBus-Info.plist */,
-				37166171A4E4542872F47EAE289B8E57 /* EventBus-prefix.pch */,
-				2E8B424EE1195E749EC242960DD403D6 /* EventBus-umbrella.h */,
-				4944BBB429D7C87A738C8A8946373219 /* EventBus.debug.xcconfig */,
-				CA3BFA7F2D7184D8E81AECD47F7075E4 /* EventBus.release.xcconfig */,
+				3E479BD1E87B2F5E1EB2751E8FFE2B58 /* EventBus.swift */,
+				8F1C84893BF9547931ED983079209B1D /* EventBusCompitable.swift */,
+				ED044DA43455E15AA837BC0C1F5B28A1 /* Pod */,
+				E141EBB692C4C1D295FC4492D364C976 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EventBus";
-			sourceTree = "<group>";
-		};
-		948C777772E89713ECAD6B0D8756A664 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E0C3EA5151CE96257DF92CF154202D15 /* EventBus.podspec */,
-				206B6FD265C5404E1695DFBD4530B44C /* LICENSE */,
-				D2A0C65C8E96A381F4A0AEECD2567A54 /* README.md */,
-			);
-			name = Pod;
+			name = EventBus;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A518C2BD44F90FA05DD5A71444BF0A15 /* Pods-EventBus_Tests */ = {
@@ -199,7 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5446E455BB3B604643FBBE71F74BF83C /* Development Pods */,
+				25DDE73A991EE44C4697C22FCA12B6C4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				727F4BD6FD071673C53A6DBA80DB5879 /* Products */,
 				654BA907A8B4A8FB8C2924E68135CACD /* Targets Support Files */,
@@ -214,16 +201,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F8D8961E3C3D5945A940083475A2959F /* EventBus */ = {
+		E141EBB692C4C1D295FC4492D364C976 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2DF4610D26AC16F4009F8019 /* EventBus.swift */,
-				2DF4610F26AC1714009F8019 /* EventBusCompitable.swift */,
-				948C777772E89713ECAD6B0D8756A664 /* Pod */,
-				8489E76EB25017A19D8B49D359587EE4 /* Support Files */,
+				93CFF8046B9EA7F688747279A61D0453 /* EventBus.modulemap */,
+				14C0532B05A7240B170BB3A98E82B7E5 /* EventBus-dummy.m */,
+				7AE98259D4FEF8A06DA6F8AA14BA5685 /* EventBus-Info.plist */,
+				D4001F96500D068648930FA57E89DDEF /* EventBus-prefix.pch */,
+				147B3C06FB67B01E71201773007342DC /* EventBus-umbrella.h */,
+				C23C4BBBFC2CD5C549AF545483FAA464 /* EventBus.debug.xcconfig */,
+				0BD399594DFBE4CAE73860C41E6D0D83 /* EventBus.release.xcconfig */,
 			);
-			name = EventBus;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EventBus";
+			sourceTree = "<group>";
+		};
+		ED044DA43455E15AA837BC0C1F5B28A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				75C667FF07C4B9824F048F84B3D00644 /* EventBus.podspec */,
+				761552802E303A4633307298EC11B7AC /* LICENSE */,
+				1134F140032510753C6E14A062D9F8B7 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,19 +237,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7C0CF362036913831519D9397C0F8EB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07798F86F2471C83FE8F0475D1B6E26 /* EventBus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8389FA898781748230415AE0ACFC759B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D0D664F06A841C942BF903A900114553 /* Pods-EventBus_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D24E4EB7535BEA845F38BC83BCD95184 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B97D1AB7A0DC0E8CF83A69992AA554E9 /* EventBus-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5A0E56CB2CE29CF63D2AE40558D5A7D2 /* PBXTargetDependency */,
+				81B6C5865A482A1903ED52B71165126F /* PBXTargetDependency */,
 			);
 			name = "Pods-EventBus_Example";
 			productName = "Pods-EventBus_Example";
@@ -287,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0FA0C21A7DADA1BE1B7621F7C8103FFA /* PBXTargetDependency */,
+				E6F08AF2867FD695F72566EABAD816E5 /* PBXTargetDependency */,
 			);
 			name = "Pods-EventBus_Tests";
 			productName = "Pods-EventBus_Tests";
@@ -296,12 +296,12 @@
 		};
 		708D4D8A8FAD51AD52E1CBF24B8D276C /* EventBus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F109B6A6F62D9A1296A53FF217755E37 /* Build configuration list for PBXNativeTarget "EventBus" */;
+			buildConfigurationList = 2581485E638F55D639B67A795C49514C /* Build configuration list for PBXNativeTarget "EventBus" */;
 			buildPhases = (
-				D24E4EB7535BEA845F38BC83BCD95184 /* Headers */,
-				E5F4B71A3583E003F63B9523385A4DC3 /* Sources */,
-				DADEBD94B0EB51FD805E20896CEA6B16 /* Frameworks */,
-				FDD8CDD518438715C69328B56647A704 /* Resources */,
+				7C0CF362036913831519D9397C0F8EB2 /* Headers */,
+				80C0F4A77D6BB4DE7E2CE9B6B08ADEBC /* Sources */,
+				15A675D2D83E46D09F8C30DCED03F812 /* Frameworks */,
+				D9A6826DFD26060290F2C1DEF277F017 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -356,7 +356,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDD8CDD518438715C69328B56647A704 /* Resources */ = {
+		D9A6826DFD26060290F2C1DEF277F017 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,6 +374,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		80C0F4A77D6BB4DE7E2CE9B6B08ADEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D5B2B79512E4E1A49E525992601F66 /* EventBus-dummy.m in Sources */,
+				8A7333E0B0D5AC2A02C7CDC29D201122 /* EventBus.swift in Sources */,
+				8DE3BC24A9F2B30251B964F1DFF1223B /* EventBusCompitable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BFCA861B6B60847160CA659D981D697 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,34 +392,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5F4B71A3583E003F63B9523385A4DC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B70CC8B4195345E92B1927795DA27CEF /* EventBus-dummy.m in Sources */,
-				2DF4610E26AC16F4009F8019 /* EventBus.swift in Sources */,
-				2DF4611026AC1714009F8019 /* EventBusCompitable.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FA0C21A7DADA1BE1B7621F7C8103FFA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-EventBus_Example";
-			target = 076AE20BDC579F9B74E80D3EF3FFC7E8 /* Pods-EventBus_Example */;
-			targetProxy = 2F0F22FFDE1FD8F3AF13327B5AEC02F4 /* PBXContainerItemProxy */;
-		};
-		5A0E56CB2CE29CF63D2AE40558D5A7D2 /* PBXTargetDependency */ = {
+		81B6C5865A482A1903ED52B71165126F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EventBus;
 			target = 708D4D8A8FAD51AD52E1CBF24B8D276C /* EventBus */;
-			targetProxy = ED57C86C92FD14FABE119DF3E9821116 /* PBXContainerItemProxy */;
+			targetProxy = 6DFD98D2851958B0459A211CDB82F5B1 /* PBXContainerItemProxy */;
+		};
+		E6F08AF2867FD695F72566EABAD816E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EventBus_Example";
+			target = 076AE20BDC579F9B74E80D3EF3FFC7E8 /* Pods-EventBus_Example */;
+			targetProxy = 291E4DE365AF256A6B489CE69E636F8D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		04B28BFFCE60267D7F26B4B48F3DBA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD399594DFBE4CAE73860C41E6D0D83 /* EventBus.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EventBus/EventBus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EventBus/EventBus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EventBus/EventBus.modulemap";
+				PRODUCT_MODULE_NAME = EventBus;
+				PRODUCT_NAME = EventBus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -475,37 +506,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		41DD08CEE73B11F57ADF622BD5C4BC56 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA3BFA7F2D7184D8E81AECD47F7075E4 /* EventBus.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EventBus/EventBus-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EventBus/EventBus-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EventBus/EventBus.modulemap";
-				PRODUCT_MODULE_NAME = EventBus;
-				PRODUCT_NAME = EventBus;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		44B5191DC8EBBA081B604D7E00CB047C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -605,9 +605,9 @@
 			};
 			name = Debug;
 		};
-		8986177FA81160E8885336610CDB6602 /* Debug */ = {
+		985E678CC7D2DDB0A4EDF587A26DFB9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4944BBB429D7C87A738C8A8946373219 /* EventBus.debug.xcconfig */;
+			baseConfigurationReference = C23C4BBBFC2CD5C549AF545483FAA464 /* EventBus.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -722,7 +722,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -731,6 +732,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2581485E638F55D639B67A795C49514C /* Build configuration list for PBXNativeTarget "EventBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985E678CC7D2DDB0A4EDF587A26DFB9C /* Debug */,
+				04B28BFFCE60267D7F26B4B48F3DBA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		37DA07D1E70B92629F81C2051B6C2AD8 /* Build configuration list for PBXNativeTarget "Pods-EventBus_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -754,15 +764,6 @@
 			buildConfigurations = (
 				BED109F10CDBFE92C6E589C42F83C27E /* Debug */,
 				5209488A8397FBCBC1C70337A920C4BA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F109B6A6F62D9A1296A53FF217755E37 /* Build configuration list for PBXNativeTarget "EventBus" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8986177FA81160E8885336610CDB6602 /* Debug */,
-				41DD08CEE73B11F57ADF622BD5C4BC56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

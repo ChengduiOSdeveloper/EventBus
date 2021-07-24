@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EventBus'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of EventBus.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ylei11@volvocars.com/EventBus'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/ChengduiOSdeveloper/EventBus'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ylei11@volvocars.com' => '1473781785@qq.com' }
-  s.source           = { :git => 'https://github.com/ylei11@volvocars.com/EventBus.git', :tag => s.version.to_s }
+  s.author           = { 'P1nov' => '1473781785@qq.com' }
+  s.source           = { :git => 'https://github.com/ChengduiOSdeveloper/EventBus.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

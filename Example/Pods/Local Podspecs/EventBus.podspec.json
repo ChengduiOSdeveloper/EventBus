@@ -1,19 +1,19 @@
 {
   "name": "EventBus",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of EventBus.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ylei11@volvocars.com/EventBus",
+  "homepage": "https://github.com/ChengduiOSdeveloper/EventBus",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ylei11@volvocars.com": "1473781785@qq.com"
+    "P1nov": "1473781785@qq.com"
   },
   "source": {
-    "git": "https://github.com/ylei11@volvocars.com/EventBus.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/ChengduiOSdeveloper/EventBus.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"

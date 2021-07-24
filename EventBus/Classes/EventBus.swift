@@ -29,6 +29,7 @@ public struct EventBus: EventBusCompatible {
 public struct EventBusCenter {
     
     public typealias EventBusCallBack = ((EventBus) -> Void)?
+    public typealias Action = Selector
     public static var `default` = EventBusCenter()
     
     private var eventBuses: [EventBus.Name: [EventBus]] = [:]
@@ -41,9 +42,23 @@ public struct EventBusCenter {
         eventBuses.appendElement(addEventBus)
     }
     
+    public mutating func add(_ eventBus: EventBus, action: Action) {
+        
+        var addEventBus = eventBus
+        addEventBus.action = { eventBus in
+            _ = eventBus.target?.perform(action, with: eventBus)
+        }
+        eventBuses.appendElement(addEventBus)
+    }
+    
     public mutating func add(_ target: AnyObject, name: EventBus.Name, object: Any?, callBack: EventBusCallBack) {
         let eventBus = EventBus(target: target, name: name, object: object, userInfo: nil)
         add(eventBus, callBack: callBack)
+    }
+    
+    public mutating func add(_ target: AnyObject, name: EventBus.Name, object: Any?, action: Action) {
+        let eventBus = EventBus(target: target, name: name, object: object, userInfo: nil)
+        add(eventBus, action: action)
     }
     
     public mutating func call(_ name: EventBus.Name, object: Any?, userInfo: [AnyHashable: Any]?) {
