@@ -33,10 +33,29 @@ EventBus is available under the MIT license. See the LICENSE file for more info.
 - `public mutating func add(_ eventBus: EventBus, callBack: EventBusCallBack)`
 
     * 通过这个方法进行`event`订阅，直接通过订阅对象`EventBus`进行处理
+    * 
+    ```swift
+      EventBusCenter.default.add(EventBus(target: self, name: "test")) { eventBus in
+            
+      }
+    ```
 
 - `public mutating func add(_ target: AnyObject, name: EventBus.Name, object: Any?, callBack: EventBusCallBack)`
     
     * 通过`target`、`name`、`object`、`callBack` 进行 `EventBus` 对象的构建，依然通过上面的方法进行 `event` 订阅
+    * 
+    ```swift
+      EventBusCenter.default.add(self, name: "test", object: nil) { eventBus in
+            
+      }
+    ```
+- `public mutating func add(_ target: AnyObject, name: EventBus.Name, object: Any?, action: Action)`
+   
+   * 通过`target`、`name`、`object`、`action` 进行 `EventBus` 对象的构建，依然通过上面的方法进行 `event` 订阅
+   * 
+   ```swift
+      EventBusCenter.default.add(self, name: "test", object: nil, action: #selector(testAction(sender:)))
+   ```
 
 - 线程的处理和更加方便的使用（待添加）
 
